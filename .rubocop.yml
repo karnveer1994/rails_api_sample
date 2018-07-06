@@ -1,0 +1,19 @@
+AllCops:
+  Exclude:
+    - bin/**
+    - config/**/*
+    - db/**/*
+    - Gemfile
+    - test/**
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Metrics/LineLength:
+  Max: 110
+Metrics/BlockLength:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Metrics/AbcSize:
+  Enabled: false
+Style/ExpandPathArguments:
+  Enabled: false
